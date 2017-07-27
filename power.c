@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int a,b;
+int a,b,n,i;
 printf("the number is:");
 scanf("%d",&a);
-b=pow(a);
+  for(i=1;i<=n;i++)
+  {
+  b=pow(a,i);
 scanf("%d",&b);
+}
 }
